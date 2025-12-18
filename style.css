@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+html {
+  font-size: 6.25%;
+}
+hr {
+  color: #6f6f6f;
+}
+/* hearder */
+header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+/*  */
+.AREA {
+  font-size: 30rem;
+  display: inline-block;
+  margin-left: 30rem;
+}
+/*  */
+.khung-a {
+  width: 400rem;
+  height: 60rem;
+  backdrop-filter: blur(15px);
+  border-radius: 100rem;
+  position: fixed;
+  z-index: 999;
+  top: 20rem;
+  left: calc(50% - 200rem);
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.khung-a a {
+  color: rgb(0, 0, 0);
+  line-height: 60rem;
+  margin: 0 20px;
+}
+.khung-a a:hover {
+  color: #737373;
+  transition: 0.3s;
+}
+/*  */
+a {
+  font-size: 14rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*  */
+.learn {
+  width: 127rem;
+  height: 48rem;
+  padding: 10rem;
+  text-align: center;
+  background-color: #485c11;
+  border-radius: 1000rem;
+  margin-right: 30rem;
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.learn:hover {
+  background-color: #8e9c78;
+  transition: 1s;
+}
+.learn:hover .muiten {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.more {
+  padding: 1px;
+  display: inline-block;
+  line-height: 1rem;
+}
+/*  */
+.header {
+  height: 738rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.everything {
+  font-size: 140rem;
+  text-align: center;
+  margin-top: -10rem;
+}
+.Ipad {
+  position: absolute;
+  top: 213rem;
+  display: block;
+  left: calc(50% - 473.5rem);
+  /* transform: translateX(-50%); */
+}
+.box-ipad {
+  width: calc(100% - 60rem);
+  position: absolute;
+  height: 362rem;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 376rem;
+  border-radius: 30rem;
+  background-color: #8e9c78;
+}
+/*  */
+.main {
+  position: relative;
+  width: calc(100% - 60rem);
+  margin: 50rem auto 0;
+}
+.trusted {
+  color: #6f6f6f;
+  font-size: 15rem;
+}
+.logo-row {
+  display: block;
+  margin: 20rem auto 30rem;
+}
+/*  */
+.Benefits1 {
+  margin-top: 100rem;
+  font-size: 12rem;
+  color: #485c11;
+}
+.code {
+  font-size: 60rem;
+}
+.overload {
+  margin-bottom: 100rem;
+  font-size: 15rem;
+  color: #6f6f6f;
+}
+/*  */
